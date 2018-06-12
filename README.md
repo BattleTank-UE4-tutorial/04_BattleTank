@@ -22,3 +22,5 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
 2. You can aim in any direction and fire by pressing left mouse button 
 3. In order to win you have to destroy an enemy tank 
 4. You lose if your hitpoint counter reaches 0 
+
+**Test changes** /TODO delete later
