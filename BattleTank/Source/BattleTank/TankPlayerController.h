@@ -34,4 +34,6 @@ private:
 
 	UPROPERTY(EditAnywhere) //UPROPERTY is exposing a variable to the engine 
 		float CrosshairYLocation = 0.3333;
+
+	bool GetLookDirection(FVector2D ScreenLocation, FVector& LoodDirection) const;
 };
