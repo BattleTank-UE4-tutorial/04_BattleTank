@@ -35,5 +35,10 @@ private:
 	UPROPERTY(EditAnywhere) //UPROPERTY is exposing a variable to the engine 
 		float CrosshairYLocation = 0.3333;
 
+	UPROPERTY(EditAnywhere) //UPROPERTY is exposing a variable to the engine 
+		float LineTraceRange = 1000000;
+
 	bool GetLookDirection(FVector2D ScreenLocation, FVector& LoodDirection) const;
+
+	bool GetLookVectorHitLocation(FVector LookDirection, FVector& HitLocation) const;
 };
